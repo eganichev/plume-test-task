@@ -10,11 +10,11 @@ html {
 * {
 	margin: 0;
 	padding: 0;
-	font-family: Poppins, sans-serif;
+	font-family: Montserrat, sans-serif;
 }
 
 body {
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 
 	background: var(--color--app-bg);
 	color: var(--color--white);
@@ -31,13 +31,13 @@ body {
 
 	/* Handle */
 	::-webkit-scrollbar-thumb {
-		background: var(--color--blue);
+		background: var(--color--sidebar-blue);
 		border-radius: 10px;
 	}
 
 	/* Handle on hover */
 	::-webkit-scrollbar-thumb:hover {
-		background: var(--color--blue);
+		background: var(--color--sidebar-blue);
 	}
 }
 
